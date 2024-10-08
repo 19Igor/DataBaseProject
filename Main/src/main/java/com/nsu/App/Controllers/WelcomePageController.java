@@ -12,10 +12,8 @@ import java.io.IOException;
 public class WelcomePageController {
     @FXML
     Button buttonTables;
-
     @FXML
     Button buttonRequest;
-
     @FXML
     void initialize(){
         buttonTables.setOnAction(actionEvent -> {
@@ -45,6 +43,5 @@ public class WelcomePageController {
                 e.printStackTrace();
             }
         });
-
     }
 }

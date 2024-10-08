@@ -1,1 +1,4 @@
 # DataBaseProject
+Стек:
+- Java
+- JavaFX

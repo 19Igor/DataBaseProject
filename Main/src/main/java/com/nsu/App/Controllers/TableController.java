@@ -195,7 +195,6 @@ public class TableController {
 class Para{
     int amountOfRows = 0;
     String tableName;
-
     public Para(int notRealAmountOfRows, String str) {
         this.amountOfRows = notRealAmountOfRows;
         this.tableName = str;
